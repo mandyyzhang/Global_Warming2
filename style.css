@@ -1,0 +1,143 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/*----------------------------------------*/
+.navMenu{
+  background-color: #323633;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navMenu > div > a {
+  display: flex;
+  color: #E6E6E6;
+  padding: 2vmin;
+  font-size: 2vmin;
+  text-decoration: none;
+}
+/*----------------------------------------*/
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #323633;
+  padding: 1vmin;
+}
+
+.footer > p {
+  color: white;
+  font-size: 2vmin;
+}
+
+/*1ST PAGE ===================================================================*/
+
+.background{
+  display: flex;
+  background-image: url('polarbear.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center, center;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/*----------------------------------------*/
+.bodyContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EFF8FB;
+}
+
+.bodyContent > h3 {
+  padding-top: 1.5vmin;
+  margin: 0px;
+  color: black;
+}
+
+.bodyContent > p {
+  color: black;
+  line-height: 1.1em;
+}
+
+.bodyContent > iframe {
+  padding-bottom: 2vmin;
+}
+
+/*2ND PAGE ===================================================================*/
+
+.background2{
+  display: flex;
+  background-image: url('factory.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center, center;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/*----------------------------------------*/
+.bodyContent2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #feeae2;
+
+  color: black;
+}
+
+.bodyContent2 > p {
+  width: 80%;
+  line-height: 1.1em;
+}
+
+.bodyContent2 > iframe {
+  padding-bottom: 2vmin;
+}
+
+
+/*3rd PAGE ===================================================================*/
+
+.background3{
+  display: flex;
+  background-image: url('plant.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center, center;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.3vmax;
+}
+
+/*----------------------------------------*/
+
+.bodyContent3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: #E5F8E2;
+}
+
+.bodyContent3 > h1,p {
+  color: black;
+  padding: 1.5vmin;
+  line-height: 1.1em;
+  margin: 0px;
+}
+
+.bodyContent3 > iframe {
+  padding-bottom: 2vmin;
+}
